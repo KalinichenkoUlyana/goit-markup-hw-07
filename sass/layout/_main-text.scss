@@ -1,0 +1,46 @@
+.text,
+.member-list-description {
+    background-color: var(--main-background-color);
+}
+
+.main-text-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+
+    background-color: #f5f4fa;
+}
+
+.main-text-images-items {
+    width: 70px;
+    height: 70px;
+}
+
+.main-text {
+    display: flex;
+    margin-left: -30px;
+}
+
+.main-text-items {
+    flex-basis: calc((100%-120px) / 4);
+    margin-left: 30px;
+}
+
+.main-text-themes {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.main-text-features {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
