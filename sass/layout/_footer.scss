@@ -13,11 +13,13 @@
 
 .adress-list-item {
     margin-bottom: 9px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
 }
 
-.adress-list-item:last-child {
-    margin-bottom: 0px;
-}
+
 
 .map {
     color: #ffffff;
