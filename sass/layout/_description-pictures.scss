@@ -2,7 +2,7 @@
     padding-top: 0px;
 }
 
-.description-title {
+.description__title {
     margin-bottom: 50px;
 }
 
@@ -11,11 +11,11 @@
     justify-content: space-between;
 }
 
-.description-pictures-item {
+.description-pictures__item {
     position: relative;
 }
 
-.description-pictures-text-overlay {
+.description-pictures__text-overlay {
     position: absolute;
     width: 370px;
     height: 70px;

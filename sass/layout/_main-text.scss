@@ -1,9 +1,9 @@
 .text,
-.member-list-description {
+.member-list__description {
     background-color: var(--main-background-color);
 }
 
-.main-text-images {
+.main-text__images {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@
     background-color: #f5f4fa;
 }
 
-.main-text-images-items {
+.main-text__images-items {
     width: 70px;
     height: 70px;
 }
@@ -24,12 +24,12 @@
     margin-left: -30px;
 }
 
-.main-text-items {
+.main-text__items {
     flex-basis: calc((100%-120px) / 4);
     margin-left: 30px;
 }
 
-.main-text-themes {
+.main-text__themes {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -38,7 +38,7 @@
     color: var(--title-text-color);
 }
 
-.main-text-features {
+.main-text__features {
     margin-top: 10px;
     font-size: 14px;
     line-height: 1.71;
